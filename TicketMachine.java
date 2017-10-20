@@ -67,6 +67,11 @@ public class TicketMachine
         balance = balance + amount;
     }
 
+    public void vaciar()
+    {
+        total = 0;
+    }
+    
     /**
      * Print a ticket.
      * Update the total collected and
